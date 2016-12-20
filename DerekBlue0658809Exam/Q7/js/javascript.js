@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$("#bannerBtn").click(function(){
+		$("#banner").slideDown("slow");
+	});
+});
+$(document).ready(function(){
+ $("#happyCatBtn").click(function(){
+ $("#happyCat").hide();
+ });
+});

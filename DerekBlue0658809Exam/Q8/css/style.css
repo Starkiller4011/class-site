@@ -1,0 +1,74 @@
+body {
+	color: white;
+	font-family: 'Slabo', serif;	
+}
+#box1 {
+	width: 24%;
+	height: 400px;
+	background: #e62739;
+	margin-left: 1%;
+	float: left;
+}
+#box2 {
+	width: 24%;
+	height: 400px;
+	background: #e62739;
+	margin-left: 1%;
+	float: left;
+}
+#box3 {
+	width: 24%;
+	height: 400px;
+	background: #e62739;
+	margin-left: 1%;
+	float: left;
+}
+#lastBox {
+	width: 24%;
+	height: 400px;
+	background: #e62739;
+	margin-left: 1%;
+	float: left;
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+	#box1 {
+		width: 32%;
+	}
+	#box2 {
+		width: 32%;
+	}
+	#box3 {
+		width: 32%;
+	}
+	#lastBox {
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#box1 {
+		width: 49%;
+	}
+	#box2 {
+		width: 49%;
+	}
+	#box3 {
+		display: none;
+	}
+	#lastBox {
+		display: none;
+	}
+}
+@media screen and (max-width: 767px) {
+	#box1 {
+		width: 99%;
+	}
+	#box2 {
+		display: none;
+	}
+	#box3 {
+		display: none;
+	}
+	#lastBox {
+		display: none;
+	}
+}

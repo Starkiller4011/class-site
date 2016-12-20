@@ -1,0 +1,9 @@
+body {
+	background: #e62739;
+}
+#banner {
+	display: none;
+}
+#happyCat {
+	display: block;
+}

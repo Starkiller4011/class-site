@@ -1,0 +1,48 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../img/pattern.png");
+}
+h2 {
+	color: white;
+	font-size: 20px;
+	font-family: 'Slabo 27px', serif;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+}
+#topBox {
+	width: 100%;
+	height: 60px;
+	background: #e62739;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+#topBox img {
+	display: block;
+	margin: 0px calc(50% - 250px);
+}
+#fixedLink {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	padding: 0px 5px;
+	height: 80px;
+	width: 100px;
+	background: #6ed3cf;
+	z-index: 2;
+}
+#content {
+	width: 1024px;
+	padding: 60px 10px 0px;
+	background: #9068be;
+	margin: 0px calc(50% - 512px);
+}
+a:link and a:hover {
+	color: #fff;
+}
+a:visited {
+	color: #c3c3c3;
+}

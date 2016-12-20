@@ -1,0 +1,68 @@
+#test3 {
+	height: 100px;
+	width: 100px;
+	background: red;
+	margin: 0px;
+}
+#test3 p {
+	margin: 0px;
+}
+.test {
+	height: 40px;
+	width: 200px;
+	background: blue;
+	margin: 0px;
+}
+.test2 {
+	height: 40px;
+	width: 200px;
+	background: green;
+	margin: 0px;
+}
+#panel {
+	display: none;
+	height: 200px;
+	width: 200px;
+	background: blue;
+	color: white;
+	margin: 0px;
+}
+#div1, #div2, #div3 {
+	height: 100px;
+	width: 100px;
+	background: yellow;
+	display: none;
+	margin: 0px;
+}
+button {
+	display: block;
+	float: left;
+	height: 50px;
+	width: 100px;
+	border: none;
+	background: blue;
+	color: white;
+	margin: 0px;
+}
+button:hover {
+	background: red;
+}
+button:active {
+	background: green;
+}
+#buttons {
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+#content {
+	height: calc(100% - 50px);
+	width: 100%;
+	position: fixed;
+	top: 50px;
+	margin-top: 5px;
+}
+#panelText {
+	display: none;
+}

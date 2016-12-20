@@ -1,0 +1,25 @@
+#climber {
+	display: none;
+	position: fixed;
+	top:0px;
+	width: 100%;
+}
+.banner {
+	display: none;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+	background: black;
+	color: white;
+	text-align: center;
+}
+#buttonWrap {
+	position: fixed;
+	top: 0px;
+	margin: 20px;
+}
+.button {
+	float: left;
+	margin: 0px 10px;
+}

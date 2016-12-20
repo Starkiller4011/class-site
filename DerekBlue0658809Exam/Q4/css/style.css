@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #e62739;
+}
+#logo {
+  width: 500px;
+  float: left;
+}
+header nav ul li {
+  background-color: #fff;
+  margin-right: 10px;
+  float: left;
+  list-style: none;
+}
+section {
+  width: 60%;
+  position: absolute;
+  left: 20px;
+  float: left;
+}
+section article header {
+  background: white;
+  color: #9068be;
+}
+.spaceOut {
+  letter-spacing: 2px;
+}
+section article b {
+  color: #00a5c9;
+}
+aside {
+  width: 34%;
+  float: right;
+}
+aside header {
+  background: white;
+}
+aside img {
+  width: 100%;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background-color: #9068be;
+  bottom: 0px;
+  left: 0px;
+}

@@ -1,0 +1,9 @@
+#first {
+	width: 30%;
+	background-color: blue;
+}
+#second {
+	width: 30%;
+	background-color: red;
+	float: right;
+}

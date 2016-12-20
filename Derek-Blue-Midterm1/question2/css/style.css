@@ -1,0 +1,27 @@
+h4 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 30px;
+	padding-left: 10px;
+}
+.topRules {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 28%;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+.middleTitle {
+	width: 200px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.bottomgRight {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+#images {
+	height: 150px;
+}

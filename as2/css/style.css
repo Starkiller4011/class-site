@@ -1,0 +1,23 @@
+body {
+	background-color: #2E2F2F;
+}
+#bigHeading {
+	color: Orange;
+	font-size: 60px;
+	text-align: center;
+}
+#firstPara {
+	background-color: #56585A;
+}
+.color1 {
+	color: red;
+}
+.color2 {
+	color: magenta;
+}
+.color3 {
+	color: lime;
+}
+.byFooter {
+	text-align: right;
+}

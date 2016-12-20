@@ -1,0 +1,93 @@
+body {
+	font-family: "Roboto Condensed", sans-serif;
+	margin: 0px;
+}
+#TopBanner {
+	height: 70px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	background-image: url("../images/banner.png");
+	background-size: 100% 100%;
+}
+#TopBanner img {
+	float: left;
+}
+h1 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 60px;
+	float: left;
+}
+#BottomBanner {
+	height: 30px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	background-image: url("../images/banner.png");
+	background-size: 100% 100%;
+}
+#BottomBanner a {
+	float: left;
+}
+#BottomBanner p {
+	float: right;
+	margin: 0px;
+	padding: 5px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	line-height: 30px;
+	padding: 0px;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+}
+a:link {
+	background-color: grey;
+}
+a:hover {
+	background-color: red;
+}
+#VideoBox {
+	height: 315px;
+	width: 560px;
+	border: 2px solid red;
+	left: 50%;
+	top: 100px;
+	margin-left: -280px;
+	position: absolute;
+}
+#LeftCol {
+	float: left;
+	height: 500px;
+	width: 30%;
+	background-color: grey;
+	padding: 10px;
+	margin: 120px 0px 0px 120px;
+}
+#RightCol {
+	float: right;
+	height: 500px;
+	width: 30%;
+	background-color: grey;
+	padding: 10px;
+	margin: 120px 120px 0px 0px;	
+}
+#LeftBig {
+	height: 80vh;
+	width: 80%;
+	background-color: grey;
+	margin-top: 80px;
+	margin: 100px 0px 0px 100px;
+}
+#subRightBig {
+	height: 300px;
+	width: 300px;
+	float: right;
+}
+#subRightBig img {
+	width: inherit;
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* This is setting the HTML and BODY style - there will be no gap at the top of the page this way, and the grey box will take up the whole browser window */
+
+html, body {
+margin-top: 0px;
+padding-top: 0px;
+height: 100%;
+
+}
+
+/* This is what a DIV looks like */
+#content {
+	margin-top: 0px;
+	width: 960px;
+	background-color: #c4c4c4;
+	margin: auto;
+	min-height: 100%;
+}
+
+/* This is what a Class looks like */
+p.center {
+	/*Overwritting default magrin */
+	margin: 0 0 0 0;
+	text-align: center;
+}
+

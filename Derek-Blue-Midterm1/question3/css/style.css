@@ -1,0 +1,60 @@
+body {
+	background-image: url("../images/swirl_pattern.png");
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 {
+	background-color: grey;
+	color: blue;
+	padding-left: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: white;
+    color: black;
+}
+.gfont {
+	font-family: "Roboto Condensed", sans-serif;
+}
+#bigBox {
+	height: 400px;
+	width: 600px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	background-image: url("../images/congruent_outline.png");
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#smallBox {
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	background-color: orange;
+}
