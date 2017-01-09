@@ -42,10 +42,10 @@ header {
 */
  nav {
     z-index: 3;
-    position: fixed;
-    top: 130px;
-    left: 50%;
-    width: 840px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     transform: translate(-50%);
 }
 nav ul {
