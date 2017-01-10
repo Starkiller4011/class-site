@@ -127,7 +127,7 @@ nav ul li:hover > ul {
     background-color: rgba(131, 142, 146, 0.9);
     color: black;
     width: 650px;
-    height: 600px;
+    height: 80%;
     padding: 50px;
     overflow: hidden;
     position: fixed;
