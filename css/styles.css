@@ -18,21 +18,21 @@ body {
     width: 100%;
 }
 .banner-text {
-    height: 50px;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%);
+    height: 100%;
+    float: left;
+    margin-left: 40px;
 }
 .banner-text h1 {
     text-align: left;
     color: white;
     text-shadow: 5px 5px 5px #000000;
     margin: 0px;
+    line-height: 140px;
 }
 .logo {
     z-index: 4;
     position: relative;
+    float: left;
     height: 100%;
     top: 0px;
     left: 10px;
@@ -71,7 +71,9 @@ nav ul li {
     position: relative;
     float: left;
     width: 120px;
+    height: 100%;
     text-align: center;
+    background: rgb(33, 33, 35);
     margin: 0px;
     padding: 0px;
 }
@@ -105,7 +107,7 @@ nav ul li:hover > ul {
   Drop-down nav menu and main header end
   Content frame start
 */
-#content {
+ #content {
     position: fixed;
     top: 170px;
     width: 100%;
@@ -121,7 +123,7 @@ nav ul li:hover > ul {
   Content styling start
   Content window without scrollbar start
 */
-.section {
+ .section {
     background-color: rgba(131, 142, 146, 0.9);
     color: black;
     width: 650px;
@@ -143,13 +145,13 @@ nav ul li:hover > ul {
 /*
   Content window without scrollbar end
 */
-strong {
+ strong {
     color: #FF3399;
 }
 /*
   For pages with earth-1.jpg as background start
 */
-.background-earth {
+ .background-earth {
     width: 100%;
     height: calc(100vh);
     background-image: url("../images/earth-1.jpg");
@@ -170,7 +172,7 @@ strong {
   Really sorry for how shitty this is. It works, but a much nicer looking implementation of responsive desing coded by myself can be viewed at the following site
   www.pristinecleaningservices.ca
 */
-.asBox {
+ .asBox {
     position: fixed;
     left: 0px;
     top: 180px;
@@ -190,7 +192,7 @@ strong {
     background: red;
 }
 /* Desktop Browsers */
-@media only screen and (min-width: 1001px) {
+ @media only screen and (min-width: 1001px) {
     #desktopBox {
         display: block;
     }
@@ -202,7 +204,7 @@ strong {
     }
 }
 /* Tablet Browsers */
-@media only screen and (min-width: 600px) and (max-width: 1000px) {
+ @media only screen and (min-width: 600px) and (max-width: 1000px) {
     #desktopBox {
         display: none;
     }
@@ -214,7 +216,7 @@ strong {
     }
 }
 /* Phone Browsers */
-@media only screen and (max-width: 599px) {
+ @media only screen and (max-width: 599px) {
     #desktopBox {
         display: none;
     }
